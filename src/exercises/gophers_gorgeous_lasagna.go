@@ -1,4 +1,4 @@
-package main
+package exercises
 
 const OvenTime = 40
 
