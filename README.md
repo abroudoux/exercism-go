@@ -9,3 +9,4 @@
 - Annalyn's Infiltration
 - Party Robot
 - Weather Forecast
+- Blackjack
