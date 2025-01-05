@@ -1,4 +1,4 @@
-package main
+package exercises
 
 // CalculateWorkingCarsPerHour calculates how many working cars are
 // produced by the assembly line every hour.
@@ -19,8 +19,4 @@ func CalculateCost(carsCount int) uint {
 	groupsCost := 95.000 * uint(groupsCount)
 	solosCarsCost := 10.000 * uint(solosCars)
 	return (groupsCost + solosCarsCost) * 1000
-}
-
-func main() {
-	println(CalculateCost(37))
 }
