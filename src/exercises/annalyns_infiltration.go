@@ -1,4 +1,4 @@
-package main
+package exercises
 
 func CanFastAttack(knightIsAwake bool) bool {
 	return !knightIsAwake
