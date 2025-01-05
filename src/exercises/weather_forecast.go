@@ -1,5 +1,6 @@
 // Package weather provides methods for weather reporting.
-package weather
+// in the exercise, the package is "weather"
+package exercises
 
 // CurrentCondition is the local weather condition.
 var CurrentCondition string
