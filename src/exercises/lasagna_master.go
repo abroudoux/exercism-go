@@ -1,12 +1,13 @@
-package main
+package exercises
 
-func PreparationTime(layers []string, avgTimePerLayer int) int {
-	if avgTimePerLayer == 0 {
-		return len(layers) * 2
-	}
+// I have to comment this line because this function is already defined in gophers_gorgeous_lasagna
+// func PreparationTime(layers []string, avgTimePerLayer int) int {
+// 	if avgTimePerLayer == 0 {
+// 		return len(layers) * 2
+// 	}
 
-	return len(layers) * avgTimePerLayer
-}
+// 	return len(layers) * avgTimePerLayer
+// }
 
 func Quantities(layers []string) (int, float64) {
 	countNoodles := countOccurences(layers, "noodles")
@@ -38,15 +39,4 @@ func ScaleRecipe(amounts []float64, quantities int) []float64 {
 		scaledAmounts = append(scaledAmounts, recipeQty / 2.00 * float64(quantities))
 	}
 	return scaledAmounts
-}
-
-func main() {
-	friendsList := []string{"noodles", "sauce", "mozzarella", "kampot pepper"}
-	myList := []string{"noodles", "meat", "sauce", "mozzarella","?"}
-
-	list := AddSecretIngredient(friendsList, myList)
-
-	for index := range list {
-		println(list[index])
-	}
 }
