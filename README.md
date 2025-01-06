@@ -11,3 +11,4 @@
 - Weather Forecast
 - Blackjack
 - Cars Assemble
+- Vehicle Purchase

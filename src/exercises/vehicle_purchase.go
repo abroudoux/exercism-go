@@ -1,4 +1,4 @@
-package main
+package exercises
 
 // NeedsLicense determines whether a license is needed to drive a type of vehicle. Only "car" and "truck" require a license.
 func NeedsLicense(kind string) bool {
@@ -24,5 +24,6 @@ func CalculateResellPrice(originalPrice, age float64) float64 {
 	} else if age < 10 {
 		return originalPrice * 0.7
 	}
+
 	return originalPrice * 0.5
 }
