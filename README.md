@@ -4,13 +4,13 @@
 
 # Exercises
 
-- Hello, World!
-- Gopher's Gorgeous Lasagna
-- Annalyn's Infiltration
-- Party Robot
-- Weather Forecast
-- Blackjack
-- Cars Assemble
-- Vehicle Purchase
-- Gross Store
-- Lasagna Master
+- [Hello, World!](./src/exercises/hello_world.go)
+- [Gopher's Gorgeous Lasagna](./src/exercises/gophers_gorgeous_lasagna.go)
+- [Annalyn's Infiltration](./src/exercises/annalyns_infiltration.go)
+- [Party Robot](./src/exercises/party_robot.go)
+- [Weather Forecast](./src/exercises/weather_forecast.go)
+- [Blackjack](./src/exercises/blackjack.go)
+- [Cars Assemble](./src/exercises/cars_assemble.go)
+- [Vehicle Purchase](./src/exercises/vehicle_purchase.go)
+- [Gross Store](./src/exercises/gross_store.go)
+- [Lasagna Master](./src/exercises/lasagna_master.go)
