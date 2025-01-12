@@ -1,4 +1,4 @@
-package exercises
+package blackjack
 
 func ParseCard(card string) int {
 	switch card {

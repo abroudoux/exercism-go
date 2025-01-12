@@ -1,4 +1,4 @@
-package exercises
+package speed
 
 type Car struct {
 	battery int

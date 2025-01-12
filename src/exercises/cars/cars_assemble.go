@@ -1,4 +1,4 @@
-package exercises
+package cars
 
 func CalculateWorkingCarsPerHour(productionRate int, successRate float64) float64 {
 	return float64(productionRate) * successRate / 100

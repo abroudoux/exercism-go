@@ -1,4 +1,4 @@
-package exercises
+package lasagna
 
 const OvenTime = 40
 

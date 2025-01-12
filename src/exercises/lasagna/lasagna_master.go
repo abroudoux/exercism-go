@@ -1,6 +1,5 @@
-package exercises
+package lasagna
 
-// I have to comment this line because this function is already defined in gophers_gorgeous_lasagna
 // func PreparationTime(layers []string, avgTimePerLayer int) int {
 // 	if avgTimePerLayer == 0 {
 // 		return len(layers) * 2

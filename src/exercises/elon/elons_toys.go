@@ -1,14 +1,6 @@
-package exercises
+package elon
 
 import "fmt"
-
-type Car struct {
-	speed        int
-	batteryDrain int
-
-	battery  int
-	distance int
-}
 
 func (car *Car) Drive() {
 	if car.batteryDrain > car.battery {

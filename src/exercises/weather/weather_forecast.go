@@ -1,4 +1,4 @@
-package exercises
+package weather
 
 var CurrentCondition string
 var CurrentLocation string

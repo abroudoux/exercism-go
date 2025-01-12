@@ -1,4 +1,4 @@
-package exercises
+package annalyn
 
 func CanFastAttack(knightIsAwake bool) bool {
 	return !knightIsAwake
