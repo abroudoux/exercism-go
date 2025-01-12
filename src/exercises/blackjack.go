@@ -1,6 +1,5 @@
 package exercises
 
-// ParseCard returns the integer value of a card following blackjack ruleset.
 func ParseCard(card string) int {
 	switch card {
 	case "two":
@@ -28,8 +27,6 @@ func ParseCard(card string) int {
 	}
 }
 
-// FirstTurn returns the decision for the first turn, given two cards of the
-// player and one card of the dealer.
 func FirstTurn(card1, card2, dealerCard string) string {
 	card1Val := ParseCard(card1)
 	card2Val := ParseCard(card2)

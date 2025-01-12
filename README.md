@@ -15,6 +15,7 @@
 - [Gross Store](./src/exercises/gross_store.go)
 - [Lasagna Master](./src/exercises/lasagna_master.go)
 - [Need For Speed](./src/exercises/need_for_speed.go)
+- [Elon's Toys](./src/exercises/elons_toys.go)
 
 ## License
 
