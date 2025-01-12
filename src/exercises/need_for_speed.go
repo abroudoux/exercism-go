@@ -1,4 +1,4 @@
-package main
+package exercises
 
 type Car struct {
 	battery int
@@ -41,10 +41,4 @@ func Drive(car Car) Car {
 
 func CanFinish(car Car, track Track) bool {
 	return car.battery >= car.batteryDrain * (track.distance / car.speed)
-}
-
-func main() {
-	track := NewTrack(100)
-	car := NewCar(5, 5)
-	println(CanFinish(car, track))
 }

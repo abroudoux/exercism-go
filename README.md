@@ -2,7 +2,7 @@
 
 🦫 Exercism Journey with Go Language
 
-# Exercises
+## Exercises
 
 - [Hello, World!](./src/exercises/hello_world.go)
 - [Gopher's Gorgeous Lasagna](./src/exercises/gophers_gorgeous_lasagna.go)
@@ -14,3 +14,8 @@
 - [Vehicle Purchase](./src/exercises/vehicle_purchase.go)
 - [Gross Store](./src/exercises/gross_store.go)
 - [Lasagna Master](./src/exercises/lasagna_master.go)
+- [Need For Speed](./src/exercises/need_for_speed.go)
+
+## License
+
+This project is under [MIT License](LICENSE)
