@@ -16,6 +16,7 @@
 - [Lasagna Master](./src/exercises/lasagna/lasagna_master.go)
 - [Need For Speed](./src/exercises/speed/need_for_speed.go)
 - [Elon's Toys](./src/exercises/elon/elons_toys.go)
+- [Card Tricks](./src/exercises/elon/card_tricks.go)
 
 ## License
 
