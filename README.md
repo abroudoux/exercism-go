@@ -17,6 +17,7 @@
 - [Need For Speed](./src/exercises/speed/need_for_speed.go)
 - [Elon's Toys](./src/exercises/elon/elons_toys.go)
 - [Card Tricks](./src/exercises/elon/card_tricks.go)
+- [Sorting Room](./src/exercises/sorting/sorting_room.go)
 
 ## License
 
