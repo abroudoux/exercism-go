@@ -21,6 +21,7 @@
 - [Bird Watcher](./src/exercises/birdwatcher/bird_watcher.go)
 - [Logs, Logs, Logs!](./src/exercises/logs/logs_logs_logs.go)
 - [Census](./src/exercises/census/census.go)
+- [Welcome To Tech Palace!](./src/exercises/techpalace/welcome_to_tech_palace.go)
 
 ## License
 

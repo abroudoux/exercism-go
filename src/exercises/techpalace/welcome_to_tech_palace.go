@@ -1,18 +1,9 @@
-package main
+package techpalace
 
 import (
 	"fmt"
 	"strings"
 )
-
-func main() {
-	message := `
-**************************
-*    BUY NOW, SAVE 10%   *
-**************************
-`
-	fmt.Println(CleanupMessage(message))
-}
 
 func WelcomeMessage(customer string) string {
 	return fmt.Sprintf("Welcome to the Tech Palace, %s", strings.ToUpper(customer))
