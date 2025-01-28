@@ -1,4 +1,4 @@
-package main
+package census
 
 type Resident struct {
 	Name    string

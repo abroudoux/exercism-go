@@ -20,6 +20,7 @@
 - [Sorting Room](./src/exercises/sorting/sorting_room.go)
 - [Bird Watcher](./src/exercises/birdwatcher/bird_watcher.go)
 - [Logs, Logs, Logs!](./src/exercises/logs/logs_logs_logs.go)
+- [Census](./src/exercises/census/census.go)
 
 ## License
 
