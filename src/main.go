@@ -1,32 +1,35 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
-
-func main() {
-	message := `
-**************************
-*    BUY NOW, SAVE 10%   *
-**************************
-`
-	fmt.Println(CleanupMessage(message))
+type ElectionResult struct {
+	Name string
+	Votes int
 }
 
-func WelcomeMessage(customer string) string {
-	return fmt.Sprintf("Welcome to the Tech Palace, %s", strings.ToUpper(customer))
+func NewVoteCounter(initialVotes int) *int {
+	return &initialVotes
 }
 
-func AddBorder(welcomeMsg string, numStarsPerLine int) string {
-	border := strings.Repeat("*", numStarsPerLine)
-	return fmt.Sprintf("%s\n%s\n%s", border, welcomeMsg, border)
+// VoteCount extracts the number of votes from a counter.
+func VoteCount(counter *int) int {
+	panic("Please implement the VoteCount() function")
 }
 
-func CleanupMessage(oldMsg string) string {
-	cleanedMessage := strings.ReplaceAll(oldMsg, "*", "")
-    cleanedMessage = strings.ReplaceAll(cleanedMessage, "\n", "")
-	cleanedMessage = strings.TrimSpace(cleanedMessage)
-    return cleanedMessage
+// IncrementVoteCount increments the value in a vote counter.
+func IncrementVoteCount(counter *int, increment int) {
+	panic("Please implement the IncrementVoteCount() function")
 }
 
+// NewElectionResult creates a new election result.
+func NewElectionResult(candidateName string, votes int) *ElectionResult {
+	panic("Please implement the NewElectionResult() function")
+}
+
+// DisplayResult creates a message with the result to be displayed.
+func DisplayResult(result *ElectionResult) string {
+	panic("Please implement the DisplayResult() function")
+}
+
+// DecrementVotesOfCandidate decrements by one the vote count of a candidate in a map.
+func DecrementVotesOfCandidate(results map[string]int, candidate string) {
+	panic("Please implement the DecrementVotesOfCandidate() function")
+}
