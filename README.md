@@ -24,6 +24,7 @@
 - [Welcome To Tech Palace!](./src/exercises/techpalace/welcome_to_tech_palace.go)
 - [Chessboard](./src/exercices/chessboard/chessboard.go)
 - [Airport Robot](./src/exercices/airportrobot/airportrobot.go)
+- [The Farm](./src/exercices/thefarm/thefarm.go)
 
 ## License
 
