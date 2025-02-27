@@ -27,6 +27,7 @@
 - [The Farm](./src/exercices/thefarm/thefarm.go)
 - [Election Day](./src/exercices/electionday/electionday.go)
 - [Parsing Log Files](./src/exercices/parsinglogfiles/parsing_log_files.go)
+- [Meteorology](./src/exercices/meteorology/meteorology.go)
 
 ## License
 
