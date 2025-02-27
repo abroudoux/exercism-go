@@ -1,60 +1,39 @@
-package thefarm
+package electionday
 
-import (
-	"errors"
-	"fmt"
-)
+import "fmt"
 
-type FodderCalculator interface {
-	FodderAmount(int) (float64, error)
-	FatteningFactor() (float64, error)
+type ElectionResult struct {
+	Name  string
+	Votes int
 }
 
-func DivideFood(f FodderCalculator, cows int) (float64, error) {
-	amount, err := f.FodderAmount(cows)
-	if err != nil {
-		return 0.0, err
-	}
-
-	factor, err := f.FatteningFactor()
-	if err != nil {
-		return 0.0, err
-	}
-
-	return amount / float64(cows) * factor, nil
+func NewVoteCounter(initialVotes int) *int {
+	return &initialVotes
 }
 
-func ValidateInputAndDivideFood(f FodderCalculator, cows int) (float64, error) {
-	if cows <= 0 {
-		return 0.0, errors.New("invalid number of cows")
+func VoteCount(counter *int) int {
+	if counter == nil {
+		return 0
 	}
 
-	return DivideFood(f, cows)
+	return *counter
 }
 
-type InvalidCowsError struct {
-	cows    int
-	message string
+func IncrementVoteCount(counter *int, increment int) {
+	*counter += increment
 }
 
-func (e *InvalidCowsError) Error() string {
-	return fmt.Sprintf("%d cows are invalid: %s", e.cows, e.message)
-}
-
-func ValidateNumberOfCows(cows int) error {
-	if cows == 0 {
-		return &InvalidCowsError{
-			cows:    cows,
-			message: "no cows don't need food",
-		}
+func NewElectionResult(candidateName string, votes int) *ElectionResult {
+	return &ElectionResult{
+		Name:  candidateName,
+		Votes: votes,
 	}
+}
 
-	if cows < 0 {
-		return &InvalidCowsError{
-			cows:    cows,
-			message: "there are no negative cows",
-		}
-	}
+func DisplayResult(result *ElectionResult) string {
+	return fmt.Sprintf("%s (%d)", result.Name, result.Votes)
+}
 
-	return nil
+func DecrementVotesOfCandidate(results map[string]int, candidate string) {
+	results[candidate]--
 }

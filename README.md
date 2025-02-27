@@ -25,6 +25,7 @@
 - [Chessboard](./src/exercices/chessboard/chessboard.go)
 - [Airport Robot](./src/exercices/airportrobot/airportrobot.go)
 - [The Farm](./src/exercices/thefarm/thefarm.go)
+- [Election Day](./src/exercices/electionday/electionday.go)
 
 ## License
 
