@@ -23,6 +23,7 @@
 - [Census](./src/exercises/census/census.go)
 - [Welcome To Tech Palace!](./src/exercises/techpalace/welcome_to_tech_palace.go)
 - [Chessboard](./src/exercices/chessboard/chessboard.go)
+- [Airport Robot](./src/exercices/airportrobot/airportrobot.go)
 
 ## License
 
