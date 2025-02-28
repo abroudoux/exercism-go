@@ -32,6 +32,7 @@
 - [Raindrops](./src/exercices/raindrops/raindrops.go)
 - [Collatz Conjecture](./src/exercices/collatzconjecture/collatzconjecture.go)
 - [Gigasecond](./src/exercices/gigasecond/gigasecond.go)
+- [Hamming](./src/exercices/hamming/hamming.go)
 
 ## License
 
