@@ -34,6 +34,7 @@
 - [Gigasecond](./src/exercices/gigasecond/gigasecond.go)
 - [Hamming](./src/exercices/hamming/hamming.go)
 - [Scrabble Score](./src/exercices/scrabble/scrabble_score.go)
+- [Leap](./src/exercices/leap/leap.go)
 
 ## License
 
