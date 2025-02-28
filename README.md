@@ -31,6 +31,7 @@
 - [Two Fer](./src/exercices/twofer/two_fer.go)
 - [Raindrops](./src/exercices/raindrops/raindrops.go)
 - [Collatz Conjecture](./src/exercices/collatzconjecture/collatzconjecture.go)
+- [Gigasecond](./src/exercices/gigasecond/gigasecond.go)
 
 ## License
 
