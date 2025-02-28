@@ -35,6 +35,7 @@
 - [Hamming](./src/exercices/hamming/hamming.go)
 - [Scrabble Score](./src/exercices/scrabble/scrabble_score.go)
 - [Leap](./src/exercices/leap/leap.go)
+- [Isogram](./src/exercices/isogram/isogram.go)
 
 ## License
 
