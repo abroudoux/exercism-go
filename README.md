@@ -33,6 +33,7 @@
 - [Collatz Conjecture](./src/exercices/collatzconjecture/collatzconjecture.go)
 - [Gigasecond](./src/exercices/gigasecond/gigasecond.go)
 - [Hamming](./src/exercices/hamming/hamming.go)
+- [Scrabble Score](./src/exercices/scrabble/scrabble_score.go)
 
 ## License
 
