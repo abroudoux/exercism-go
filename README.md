@@ -36,6 +36,7 @@
 - [Scrabble Score](./src/exercices/scrabble/scrabble_score.go)
 - [Leap](./src/exercices/leap/leap.go)
 - [Isogram](./src/exercices/isogram/isogram.go)
+- [Difference of Squares](./src/exercices/diffsquares/difference_of_squares.go)
 
 ## License
 
