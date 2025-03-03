@@ -38,6 +38,7 @@
 - [Isogram](./src/exercises/isogram/isogram.go)
 - [Difference of Squares](./src/exercises/diffsquares/difference_of_squares.go)
 - [Resistor Color](./src/exercises/resistorcolor/resistor_color.go)
+- [Space Age](./src/exercises/space/space_age.go)
 
 ## License
 
