@@ -40,6 +40,7 @@
 - [Resistor Color](./src/exercises/resistorcolor/resistor_color.go)
 - [Space Age](./src/exercises/space/space_age.go)
 - [Strain](./src/exercises/strain/strain.go)
+- [Pangram](./src/exercises/pangram/pangram.go)
 
 ## License
 
