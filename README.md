@@ -42,6 +42,7 @@
 - [Strain](./src/exercises/strain/strain.go)
 - [Pangram](./src/exercises/pangram/pangram.go)
 - [Reverse String](./src/exercises/reverse/reverse_string.go)
+- [Darts](./src/exercises/darts/darts.go)
 
 ## License
 
