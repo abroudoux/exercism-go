@@ -1,21 +1,64 @@
-package grains
+package romannumerals
 
-import "errors"
+import (
+	"errors"
+	"strings"
+)
 
-func Square(number int) (uint64, error) {
-	if number <= 0 || number > 64 {
-		return 0, errors.New("please choose a valid number")
+func ToRomanNumeral(input int) (string, error) {
+	if input <= 0 {
+		return "", errors.New("please enter a valid number")
 	}
 
-	return uint64(1 << (number - 1)), nil
-}
+	var roman strings.Builder
 
-func Total() uint64 {
-	var sum int
-	for i := 0; i <= 64; i++ {
-		grains, _ := Square(i)
-		sum += int(grains)
+	for {
+		if input == 0 {
+			break
+		}
+
+		if input > 1000 {
+			roman.WriteString("M")
+			input -= 1000
+			continue
+		}
+
+		if input > 500 {
+			roman.WriteString("D")
+			input -= 500
+			continue
+		}
+
+		if input > 100 {
+			roman.WriteString("C")
+			input -= 100
+			continue
+		}
+
+		if input > 50 {
+			roman.WriteString("L")
+			input -= 50
+			continue
+		}
+
+		if input > 10 {
+			roman.WriteString("X")
+			input -= 10
+			continue
+		}
+
+		if input > 5 {
+			roman.WriteString("V")
+			input -= 5
+			continue
+		}
+
+		if input > 1 {
+			roman.WriteString("I")
+			input -= 1
+			continue
+		}
 	}
 
-	return uint64(sum)
+	return roman.String(), nil
 }
