@@ -43,7 +43,8 @@
 - [Pangram](./src/exercises/pangram/pangram.go)
 - [Reverse String](./src/exercises/reverse/reverse_string.go)
 - [Darts](./src/exercises/darts/darts.go)
-- [D´D Character](./src/exercises/dndcharacter/dnd_character.go)
+- [D&D Character](./src/exercises/dndcharacter/dnd_character.go)
+- [ETL](./src/exercises/etl/etl.go)
 
 ## License
 
