@@ -46,6 +46,8 @@
 - [D&D Character](./src/exercises/dndcharacter/dnd_character.go)
 - [ETL](./src/exercises/etl/etl.go)
 - [RNA Transcription](./src/exercises/strand/rna_transcription.go)
+- [Bob](./src/exercises/bob/bob.go)
+
 
 ## License
 
