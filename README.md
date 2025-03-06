@@ -45,6 +45,7 @@
 - [Darts](./src/exercises/darts/darts.go)
 - [D&D Character](./src/exercises/dndcharacter/dnd_character.go)
 - [ETL](./src/exercises/etl/etl.go)
+- [RNA Transcription](./src/exercises/strand/rna_transcription.go)
 
 ## License
 
