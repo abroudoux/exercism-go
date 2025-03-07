@@ -49,6 +49,7 @@
 - [Bob](./src/exercises/bob/bob.go)
 - [Grains](./src/exercises/grains/grains.go)
 - [Roman Numerals](./src/exercises/romannumerals/roman_numerals.go)
+- [Nucleotide Count](./src/exercises/dna/nucleotide_count.go)
 
 
 ## License
