@@ -48,6 +48,7 @@
 - [RNA Transcription](./src/exercises/strand/rna_transcription.go)
 - [Bob](./src/exercises/bob/bob.go)
 - [Grains](./src/exercises/grains/grains.go)
+- [Roman Numerals](./src/exercises/romannumerals/roman_numerals.go)
 
 
 ## License
