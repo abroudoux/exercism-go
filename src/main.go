@@ -1,16 +1,37 @@
-package isbn
+package luhn
 
-import "regexp"
+import (
+	"regexp"
+	"strings"
+)
 
-func IsValidISBN(isbn string) bool {
-	if len(isbn) != 13 {
+func Valid(id string) bool {
+	idTrimed := strings.ReplaceAll(id, " ", "")
+	if len(idTrimed) <= 1 {
 		return false
 	}
 
-	pattern := `^\d-\d{3}-\d{4}-[\dX]$`
-	if !regexp.MustCompile(pattern).MatchString(isbn) {
+	var re = regexp.MustCompile(`^[0-9]+$`)
+	if !re.MatchString(idTrimed) {
 		return false
 	}
 
-	return true
+	sum := 0
+	isSecond := false
+
+	for i := len(idTrimed) - 1; i >= 0; i-- {
+		d := int(idTrimed[i] - '0')
+
+		if isSecond {
+			d *= 2
+			if d > 9 {
+				d -= 9
+			}
+		}
+
+		sum += d
+		isSecond = !isSecond
+	}
+
+	return sum%10 == 0
 }
